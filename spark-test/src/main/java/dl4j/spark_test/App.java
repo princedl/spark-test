@@ -18,7 +18,7 @@ public class App
         System.out.println( "Hello World!" );
         System.setProperty("hadoop.home.dir", "C:\\Users\\pdl\\Downloads\\bin-master\\");
  
-        SparkConf conf = new SparkConf().setAppName("firstSparkProject").setMaster("local[*]");
+        SparkConf conf = new SparkConf().setAppName("firstSparkProject").setMaster("local");
         JavaSparkContext sc = new JavaSparkContext(conf);
         String path = "linecount.txt";
  
