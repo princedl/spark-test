@@ -60,6 +60,9 @@
                   <exclude>*:xml-apis</exclude>
                   <exclude>org.apache.maven:lib:tests</exclude>
                   <exclude>log4j:log4j:jar:</exclude>
+                <exclude>META-INF/*.SF</exclude>
+                <exclude>META-INF/*.DSA</exclude>
+                <exclude>META-INF/*.RSA</exclude>          
                 </excludes>
               </artifactSet>
             </configuration>
